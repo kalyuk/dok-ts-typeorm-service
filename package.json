@@ -1,0 +1,17 @@
+{
+  "name": "dok-ts-typeorm-service",
+  "version": "1.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/kalyuk/dok-ts-typeorm-service.git",
+  "author": "Dmitry Kalyuk",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "yarn build"
+  },
+  "dependencies": {
+    "dok-ts": "^1.0.34",
+    "typeorm": "^0.1.9",
+    "typescript": "^2.6.2"
+  }
+}
